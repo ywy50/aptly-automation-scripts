@@ -1,0 +1,5 @@
+/var/log/aptly/*.log {
+    daily
+    rotate 5
+    size 1M
+}

@@ -1,0 +1,1 @@
+/srv/repo/packages IN_CREATE,IN_DELETE,IN_MOVE,IN_ONLYDIR /bin/bash -c "repo_cleanup $@ devops && repo_update $@ devops all"

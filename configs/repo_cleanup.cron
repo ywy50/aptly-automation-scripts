@@ -1,0 +1,2 @@
+15 */24 * * * /bin/bash -c "repo_cleanup /srv/repo/packages devops && repo_update /srv/repo/packages devops all"
+30 */12 * * * /usr/local/bin/snapshot_cleanup "-1 day"
